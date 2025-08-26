@@ -60,9 +60,11 @@ Strategy é um padrão de design comportamental que permite definir a família d
 ● Muitas linguagens modernas suportam funções anônimas, o que permite implementar variantes de um algoritmo como funções, usando-as como estratégias, sem precisar adicionar muitas classes e interfaces.
 
 # Referências
-https://refactoring.guru/design-patterns/strategy
-https://www.geeksforgeeks.org/system-design/strategy-pattern-set-1/
-https://www.geeksforgeeks.org/system-design/behavioral-design-patterns/
+GURU, REFACTORING. Strategy. 2025. Disponível em: https://refactoring.guru/design-patterns/strategy. Acesso em: 18. agost. 2025.
+
+GEEKS FOR GEEKS. Strategy Design Pattern. 2025. Disponível em: https://www.geeksforgeeks.org/system-design/strategy-pattern-set-1/. Acesso em: 18. agost. 2025.
+
+GEEKS FOR GEEKS. Behavioral Design Patterns. 2025. Disponível em: https://www.geeksforgeeks.org/system-design/behavioral-design-patterns/. Acesso em: 18. agost. 2025.
 
 ## Instituição
 
