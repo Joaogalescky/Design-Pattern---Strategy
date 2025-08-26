@@ -6,10 +6,16 @@ Repositório para a atividade avaliativa sobre o padrão de projeto - Strategy |
 # Padrão Comportamental
 Categoria de padrões de design que se concentra nas interações e na comunicação entre objetos. Eles ajudam a definir como os objetos colaboram e distribuem responsabilidades entre si, facilitando o gerenciamento de fluxos de controle complexos e a comunicação em um sistema [GEEK](https://www.geeksforgeeks.org/system-design/behavioral-design-patterns/).
 
-[![Componentes]]
-
 # Strategy
 Strategy é um padrão de design comportamental que permite definir a família dos algoritmos, pondo cada um em classes separadas, tornando seus objetos intercambiáveis [GURU](https://refactoring.guru/design-patterns/strategy). Permite que os clientes troquem algoritmos dinamicamente sem alterar a estrutura do código, útil quando deseja alterar dinamicamente o comportamento de uma classe sem modificar seu código [GEEK](https://www.geeksforgeeks.org/system-design/strategy-pattern-set-1/).
+
+<div align="center">Imagem: Componentes do Strategy</div>
+
+[![Componentes](Components-of-Strategy-Design-Pattern-.png)](https://www.geeksforgeeks.org/system-design/strategy-pattern-set-1/)
+<div align="center">
+ Fonte: 
+ <a href="https://www.geeksforgeeks.org/system-design/strategy-pattern-set-1/">Geek for Geeks (2025)</a>
+</div>
 
 ## Características
 * Define uma família de algoritmos: O padrão permite encapsular vários algoritmos ou comportamentos em classes separadas, conhecidas como estratégias.
@@ -27,7 +33,13 @@ Strategy é um padrão de design comportamental que permite definir a família d
 * Use o padrão quando sua classe tem um enorme bloco condicional que escolhe entre diferentes variantes do mesmo algoritmo.
   * O padrão Strategy elimina esse condicional ao extrair todos os algoritmos para classes separadas, todas implementando a mesma interface. O objeto original delega a execução para um desses objetos, ao invés de implementar todas as variantes do algoritmo.
  
-  * [![Diagrama - Strategy]]
+<div align="center">Imagem: Diagrama - traduzido</div>
+
+[![Diagrama](Diagrama.png)](https://refactoring.guru/design-patterns/strategy)
+<div align="center">
+ Fonte: 
+ <a href="https://refactoring.guru/design-patterns/strategy">Guru (2025)</a>
+</div>
 
 ## Implementação
 1. Na classe context, identifique um algoritmo que costuma mudar com frequência. Pode ser um grande condicional que seleciona e executa uma variante do mesmo algoritmo em tempo de execução.
